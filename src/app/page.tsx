@@ -47,7 +47,7 @@ import { MacbookScrollDemo } from '@/components/macbook';
 import { MeteorsDemo } from '@/components/meteors';
 import { MovingBorderDemo } from '@/components/moving-border';
 import { MultiStepLoaderDemo } from '@/components/multi-step';
-import { NavbarDemo } from '@/components/navbar';
+// import { NavbarDemo } from '@/components/navbar';
 import { ParallaxScrollDemo } from '@/components/parallax-scroll';
 import { ParallaxScrollSecondDemo } from '@/components/parallax-scroll2';
 import { PlaceholdersAndVanishInputDemo } from '@/components/placeholder';
@@ -99,7 +99,7 @@ const HomePage: NextPage = () => (
 		<h1 className="font-sans text-center text-5xl font-semibold">
 			Next Auth + SIWE
 		</h1>
-		<div className="flex">
+		{/* <div className="flex">
 			<WavyBackgroundDemo />
 		</div>
 		<div className="flex">
@@ -203,7 +203,7 @@ const HomePage: NextPage = () => (
 		<div className="flex">
 			<MultiStepLoaderDemo />
 		</div>
-			<NavbarDemo />
+			{/* <NavbarDemo /> 
 			<ParallaxScrollDemo />
 			<ParallaxScrollSecondDemo />
 		<div className="flex">
@@ -229,7 +229,7 @@ const HomePage: NextPage = () => (
 		<TypewriterEffectSmoothDemo />
 		<VortexDemo />
 		<VortexDemoSecond />
-		< WobbleCardDemo />
+		< WobbleCardDemo /> */}
 	</div>
 );
 

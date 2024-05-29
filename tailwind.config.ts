@@ -158,6 +158,10 @@ const config: Config = {
 						backgroundPosition: '-200% 0',
 					},
 				},
+				pulse: {
+					'0%, 100%': { transform: 'scale(1)' },
+					'50%': { transform: 'scale(1.1)' },
+				},
 			},
 
 			animation: {
@@ -174,6 +178,7 @@ const config: Config = {
 				'meteor-effect': 'meteor 5s linear infinite',
 				shimmer: 'shimmer 2s linear infinite',
 				spotlight: 'spotlight 2s ease .75s 1 forwards',
+				pulse: 'pulse 0.1s ease-in-out',
 			},
 		},
 	},
