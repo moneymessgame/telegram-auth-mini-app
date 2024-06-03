@@ -96,7 +96,7 @@ const HomePage: NextPage = () => (
 				/>
 			</Link>
 		</div>
-		<h1 className="font-sans text-center text-5xl font-semibold">
+		<h1 className="font-sans text-center text-5xl font-black">
 			Next Auth + SIWE
 		</h1>
 		{/* <div className="flex">

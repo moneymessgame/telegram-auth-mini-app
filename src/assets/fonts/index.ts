@@ -2,9 +2,17 @@ import { Montserrat } from 'next/font/google';
 import localFont from 'next/font/local';
 
 export const fontMontserrat = Montserrat({
+	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
 	subsets: ['cyrillic-ext'],
+	display: 'swap',
+	fallback: ['Montserrat', 'sans-serif'],
 	variable: '--font-montserrat',
 });
+
+// export const fontMontserrat = Montserrat({
+// 	subsets: ['cyrillic-ext'],
+// 	variable: '--font-montserrat',
+// });
 
 export const fontCalsans = localFont({
 	src: [
@@ -15,6 +23,7 @@ export const fontCalsans = localFont({
 		},
 	],
 });
+
 export const fontBebas = localFont({
 	src: [
 		{
